@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+    
+        <meta charset="UTF-8">
+        <title>Code player</title>
+        <link rel="stylesheet" href="code player.css">
+    
+    </head>
+    <body>
+    
+        <div id="header">
+        
+            <div id="logo">Code Player</div>
+            
+            <div id="buttonContainer">
+            
+                <div class="toggleButton" id="html">HTML</div>
+                
+                <div class="toggleButton" id="css">CSS</div>
+                
+                <div class="toggleButton" id="javascript">JavaScript</div>
+                
+                <div class="toggleButton" id="output">Output</div>    
+            
+            </div>
+        
+        </div>
+        
+        <div id="bodyContent">
+        
+            <textarea id="htmlPanel" class="panel"><p>Hello World</p></textarea>
+            
+            <textarea id="cssPanel" class="panel hidden">p{color:green}</textarea>
+            
+            <textarea id="javascriptPanel" class="panel hidden"></textarea>
+            
+            <iframe id="outputPanel" class="panel"></iframe>
+        
+        </div>
+        
+        
+        
+        <script src="jquery-3.1.0.min.js"></script>
+        <script src="code player.js"></script>
+    
+    </body>
+
+</html>
